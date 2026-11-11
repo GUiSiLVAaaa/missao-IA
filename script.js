@@ -14,11 +14,13 @@ let atual = 0;
 let perguntaAtual;
 let históriaFinal = "";
 
+botaoIniciar.addEventListener('click', iniciaJogo);
 
-
-
-
-
+ function mostraPergunta() {
+       if(atual >= perguntas.length){
+        mostraResultado();
+        return;
+    } 
 
 
 

@@ -195,9 +195,8 @@ function subtituiNome() {
         pergunta.enunciado = pergunta.enunciado.replace(/você/g,nome)
     }
 } 
-
+ 
 substituiNome();
-
 
 
 
